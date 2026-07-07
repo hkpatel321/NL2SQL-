@@ -1,0 +1,55 @@
+# Environment and secrets
+.env
+.env.*
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Logs
+*.log
+logs/
+
+# Jupyter Notebook (local experiments may contain secrets)
+*.ipynb
+.ipynb_checkpoints/
+
+# Archives (extracted data folder is tracked instead)
+*.zip
+
+# Node / frontend
+node_modules/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+
+# IDE and OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Local database / temp files
+*.db
+*.sqlite3
+*.sqlite
